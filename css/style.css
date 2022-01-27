@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2d3b; 
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+}
+
+.main-cont {
+    margin-top: 150px;
+}
+
+.movie-square {
+    width: 190px;
+    height: 350px;
+    margin: 0 20px 75px 20px;
+    background-color: #2e3a46;
+}    
+    
+.movie-square > h3 { 
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.detail {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    font-weight: normal;
+}
+ 
+.movie-square:hover {
+    background-color: #3d4e5f;
+    cursor: pointer;
+}
